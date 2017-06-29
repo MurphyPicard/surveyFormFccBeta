@@ -1,0 +1,18 @@
+body {
+  background-color: turquoise;
+  text-align: center;
+
+}
+.lookslikeapage{
+  background-color: #fff;
+  margin: 0 auto;
+  width: 90%;
+  border: solid 5px black;
+  height: 700px;
+}
+
+table{
+  height: 90%;
+
+  width: 90%;
+}
