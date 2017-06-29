@@ -8,11 +8,35 @@ body {
   margin: 0 auto;
   width: 90%;
   border: solid 5px black;
-  height: 700px;
+  height: 800px;
 }
 
 table{
   height: 90%;
-
   width: 90%;
+  margin: auto;
+  border: solid black 1px;
+}
+tr{
+  height: 40px;
+  border: solid black 1px;
+}
+
+.lefttd{
+  background-color: lightblue;
+  width: 200px;
+  text-align: right;
+  padding: 10px;
+}
+
+.righttd{
+  background-color: lightgreen;
+  width: 200px;
+  text-align: left;
+  padding: 10px;
+}
+
+.submittheform{
+  margin: 10px;
+  background-color: lightblue;
 }

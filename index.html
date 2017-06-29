@@ -12,74 +12,80 @@
 
     <div class="lookslikeapage">
       <h4>Let us know how we can improve freeCodeCamp</h4>
-      <table>
-        <tr>
-          <td>* Name:</td>
-          <td><input type="text" name="" value="" placeholder="name"></td>
-        </tr>
-        <tr>
-          <td>* Email:</td>
-          <td><input type="text" name="" value="" placeholder="email"></td>
-        </tr>
-        <tr>
-          <td>* Age:</td>
-          <td><input type="number" name="" value=""placeholder="age"></td>
-        </tr>
-        <tr>
-          <td>Which option best describes your current role?</td>
-          <td>
-            <select class="selectroles" name="" placeholder="">
-              <option value="">Select an Option</option>
-              <option value="">Student</option>
-              <option value="">Full Time Job</option>
-              <option value="">Full Time Learner</option>
-              <option value="">Prefer not to say</option>
-              <option value="">Other</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>* How likely is that you would recommend freeCodeCamp to a friend?</td>
-          <td>
-              <input type="radio" name="rec" value="Definitely">Definitely <br>
-              <input type="radio" name="rec" value="Maybe">Maybe <br>
-              <input type="radio" name="rec" value="NS">Not Sure <br>
-          </td>
-        </tr>
-        <tr>
-          <td>What do you like most in FCC:</td>
-          <td>
-            <select class="" name="">
-              <option value="">Select an Option</option>
-              <option value="">Student</option>
-              <option value="">Full Time Job</option>
-              <option value="">Full Time Learner</option>
-              <option value="">Prefer not to say</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Things that should be improved in the future
-(Check all that apply):</td>
-          <td>
-            <input type="checkbox" name="vehicle" value="Bike">Front-end Projects<br>
-            <input type="checkbox" name="vehicle" value="Car" >Back-end Projects<br>
-            <input type="checkbox" name="vehicle" value="Bike">Data Visualization<br>
-            <input type="checkbox" name="vehicle" value="Car" >Challenges<br>
-            <input type="checkbox" name="vehicle" value="Bike">Open Source Community<br>
-            <input type="checkbox" name="vehicle" value="Bike">Gitter help rooms<br>
-            <input type="checkbox" name="vehicle" value="Car" > I have a car<br>
-            <input type="checkbox" name="vehicle" value="Car" > I have a car<br>
-            <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
-            <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
-            <input type="checkbox" name="vehicle" value="Car" checked="checked"> I have a car<br>
-          </td>
-        </tr>
-        <tr>
-          <td>Any Comments or Suggestions?</td>
-          <td><input type="text" name="" value=""></td>
-        </tr>
-      </table>
+
+      <form class="" action="index.html" method="post">
+
+        <table>
+          <tr>
+            <td class="lefttd">* Name:</td>
+            <td class="righttd"><input type="text" name="" value="" placeholder="name"></td>
+          </tr>
+          <tr>
+            <td class="lefttd">* Email:</td>
+            <td class="righttd"><input type="text" name="" value="" placeholder="email"></td>
+          </tr>
+          <tr>
+            <td class="lefttd">* Age:</td>
+            <td class="righttd"><input type="number" name="" value=""placeholder="age"></td>
+          </tr>
+          <tr>
+            <td class="lefttd">Which option best describes your current role?</td>
+            <td class="righttd">
+              <select class="selectroles" name="" placeholder="">
+                <option value="">Select an Option</option>
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Learner</option>
+                <option value="">Prefer not to say</option>
+                <option value="">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="lefttd">* How likely is that you would recommend freeCodeCamp to a friend?</td>
+            <td class="righttd">
+                <input type="radio" name="rec" value="Definitely">Definitely <br>
+                <input type="radio" name="rec" value="Maybe">Maybe <br>
+                <input type="radio" name="rec" value="NS">Not Sure <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="lefttd">What do you like most in FCC:</td>
+            <td class="righttd">
+              <select class="" name="">
+                <option value="">Select an Option</option>
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Learner</option>
+                <option value="">Prefer not to say</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="lefttd">Things that should be improved in the future (Check all that apply):</td>
+            <td class="righttd">
+              <input type="checkbox" name="vehicle" value="Bike">Front-end Projects<br>
+              <input type="checkbox" name="vehicle" value="Car" >Back-end Projects<br>
+              <input type="checkbox" name="vehicle" value="Bike">Data Visualization<br>
+              <input type="checkbox" name="vehicle" value="Car" >Challenges<br>
+              <input type="checkbox" name="vehicle" value="Bike">Open Source Community<br>
+              <input type="checkbox" name="vehicle" value="Bike">Gitter help rooms<br>
+              <input type="checkbox" name="vehicle" value="Car" >Videos<br>
+              <input type="checkbox" name="vehicle" value="Car" >City Meetups<br>
+              <input type="checkbox" name="vehicle" value="Bike">Wiki<br>
+              <input type="checkbox" name="vehicle" value="Bike">Forum<br>
+              <input type="checkbox" name="vehicle" value="Car" >Additional Courses<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="lefttd">Any Comments or Suggestions?</td>
+            <td class="righttd"><input type="text" name="" value=""></td>
+          </tr>
+        </table>
+
+        <input class="submittheform" type="submit" name="" value="Submit">
+      </form>
+
 
     </div>
   </body>
